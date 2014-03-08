@@ -26,4 +26,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+#pragma mark - IBActions
+
+- (IBAction)clickTheButton:(id)sender
+{
+    NSLog(@"button click");
+    
+    
+}
+
 @end
