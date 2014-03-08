@@ -21,6 +21,7 @@
 		9FBC3A6B18CB341600E04BB0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FBC3A4D18CB341600E04BB0 /* UIKit.framework */; };
 		9FBC3A7318CB341600E04BB0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9FBC3A7118CB341600E04BB0 /* InfoPlist.strings */; };
 		9FBC3A7518CB341600E04BB0 /* GitUseExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC3A7418CB341600E04BB0 /* GitUseExampleTests.m */; };
+		9FBC3A8018CB3C6700E04BB0 /* XYZMapForItinerary.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FBC3A7F18CB3C6700E04BB0 /* XYZMapForItinerary.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		9FBC3A7018CB341600E04BB0 /* GitUseExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitUseExampleTests-Info.plist"; sourceTree = "<group>"; };
 		9FBC3A7218CB341600E04BB0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9FBC3A7418CB341600E04BB0 /* GitUseExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitUseExampleTests.m; sourceTree = "<group>"; };
+		9FBC3A7E18CB3C6600E04BB0 /* XYZMapForItinerary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZMapForItinerary.h; sourceTree = "<group>"; };
+		9FBC3A7F18CB3C6700E04BB0 /* XYZMapForItinerary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZMapForItinerary.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				9FBC3A5B18CB341600E04BB0 /* Main.storyboard */,
 				9FBC3A5E18CB341600E04BB0 /* XYZViewController.h */,
 				9FBC3A5F18CB341600E04BB0 /* XYZViewController.m */,
+				9FBC3A7E18CB3C6600E04BB0 /* XYZMapForItinerary.h */,
+				9FBC3A7F18CB3C6700E04BB0 /* XYZMapForItinerary.m */,
 				9FBC3A6118CB341600E04BB0 /* Images.xcassets */,
 				9FBC3A5018CB341600E04BB0 /* Supporting Files */,
 			);
@@ -252,6 +257,7 @@
 			files = (
 				9FBC3A6018CB341600E04BB0 /* XYZViewController.m in Sources */,
 				9FBC3A5A18CB341600E04BB0 /* XYZAppDelegate.m in Sources */,
+				9FBC3A8018CB3C6700E04BB0 /* XYZMapForItinerary.m in Sources */,
 				9FBC3A5618CB341600E04BB0 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
